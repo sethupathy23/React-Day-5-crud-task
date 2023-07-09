@@ -7,7 +7,7 @@ export function User({data}){
     const user = data[id];  
     console.log(user);
     return(
-        <div> 
+        <div className="user"> 
             <div className="user-details">
                 <p className="p">
                     <strong className="s">First Name</strong>: {user.FirstName}
